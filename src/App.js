@@ -2,7 +2,8 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 // import './App.css';
 
-import Login from './Login'
+// import Login from './Login'
+import Navigation from './Navigation'
 
 
 
@@ -12,9 +13,17 @@ import Login from './Login'
 class App extends React.Component {
   render(){
     return(
+
       <div>
-        <Login/>
+        {/* <Route exact path='/'> */}
+            {/* <Login/> */}
+        {/* </Route> */}
+
+        <Navigation/>
+
+
       </div>
+
     )
   }
 }

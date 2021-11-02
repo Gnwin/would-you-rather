@@ -1,0 +1,24 @@
+.nav-element {
+	border-bottom: 2px solid green;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-element .nav-list .nav-item {
+	display: inline-flex;
+}
+
+.nav-element .nav-list .nav-item .nav-link {
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-element .nav-list .nav-item .nav-link:hover {
+	color: honeydew;
+	background: green;
+	transform: perspective(10px) rotateX(1deg);
+	-moz-transform: perspective(10px) rotateX(1deg);
+	-webkit-transform: perspective(10px) rotateX(1deg);
+}

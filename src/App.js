@@ -17,9 +17,8 @@ class App extends React.Component {
       <div>
         {/* <Route exact path='/'> */}
             {/* <Login/> */}
+            <Navigation/>
         {/* </Route> */}
-
-        <Navigation/>
 
 
       </div>

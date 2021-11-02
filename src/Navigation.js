@@ -1,20 +1,22 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
+import './Navigation.css';
+import LoggedUser from "./LoggedUser";
 
 
 class Navigation extends React.Component{
+	state = {
+		navList : ['Home', 'New Question', 'LeaderBoard', 'Avatar', 'Logout']
+	}
+
 	render(){
 		return(
-			<nav>
-				<ul>
-					<li>Home</li>
-					<li>New Question</li>
-					<li>Leaderboard</li>
-					<li>
-						<span>Hello, Tyler McGinnis</span>
-						<span>Avatar</span>
-					</li>
-					<li>Logout</li>
+			<nav className="nav-element">
+				<ul className="nav-list">
+					{this.state.navList.map((navItem)=>(
+						<li className="nav-item"><Link to='' className="nav-link">{navItem === 'Avatar' ? <LoggedUser/> : navItem }</Link></li>
+					))}
 				</ul>
 			</nav>
 		)

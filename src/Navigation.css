@@ -1,5 +1,5 @@
 .nav-element {
-	border-bottom: 2px solid green;
+	border-bottom: 2px solid rgb(71, 136, 71);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -13,6 +13,7 @@
 	padding: 1rem 1.5rem;
 	text-decoration: none;
 	color: black;
+	font-weight: 700;
 }
 
 .nav-element .nav-list .nav-item .nav-link:hover {

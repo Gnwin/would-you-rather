@@ -1,17 +1,17 @@
 .questions-list {
-  border: 1px solid gray;
+  border: 1px solid rgb(183, 182, 182);
 	width: 50%;
 	max-width: 30rem;
 	margin: 2rem auto;
 }
 
 .header {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid rgb(183, 182, 182);
 	display: flex;
 }
 
 .borderright {
-	border-right: 1px solid gray;
+	border-right: 1px solid rgb(183, 182, 182);
 }
 
 .header-tag {
@@ -21,4 +21,11 @@
 
 .header-link {
 	display: block;
+	padding: 0.5rem;
+	color: black;
+}
+
+.header-link:active {
+	color: green;
+	background: rgba(241, 238, 243, 0.875);
 }

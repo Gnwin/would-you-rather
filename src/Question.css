@@ -1,23 +1,42 @@
 .pad {
-	border: 1px solid gray;
-	/* padding: 0.5rem; */
+	border: 1px solid rgb(183, 182, 182);
 	margin: 0.8rem;
+}
+
+.user {
+	padding: 0.5rem;
+	background-color: rgba(241, 238, 243, 0.875);
 }
 
 .question-info {
   display: flex;
-	border-top: 1px solid gray;
+	border-top: 1px solid rgb(183, 182, 182);
 }
 
 .question-item {
-	/* width: 50%; */
+	width: 60%;
 }
 
 .avatar {
-	border-right: 1px solid gray;
+	border-right: 1px solid rgb(183, 182, 182);
 	width: 40%;
 }
 
 .spacer {
-	padding: 0.5rem;
+	padding: 0.7rem;
+}
+
+.pollbutton {
+	display: block;
+	width: 100%;
+	border: 1px solid rgb(67, 171, 67);
+	background: none;
+	color: green;
+	font-size: 80%;
+	padding: 0.3rem;
+}
+
+.wyr,
+.wyrq {
+	padding-bottom: 0.7rem;
 }

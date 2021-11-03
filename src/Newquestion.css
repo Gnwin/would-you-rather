@@ -1,0 +1,96 @@
+.pads {
+	border: 1px solid rgb(183, 182, 182);
+	margin: 0.8rem;
+	width: 50%;
+	max-width: 30rem;
+	margin: 2rem auto;
+}
+
+.userr {
+	padding: 0.5rem;
+	background-color: rgba(241, 238, 243, 0.875);
+	text-align: center;
+}
+
+.question-infoo {
+  border-top: 1px solid rgb(183, 182, 182);
+}
+
+.question-itemm {
+	/* width: 60%; */
+}
+
+
+.spacerr {
+	padding: 0.7rem;
+}
+
+.pollbuttonn {
+	display: block;
+	width: 100%;
+	border: 1px solid rgb(67, 171, 67);
+	background: none;
+	color: green;
+	font-size: 80%;
+	padding: 0.3rem;
+}
+
+.wyrr,
+.wyrqq {
+	padding-bottom: 0.7rem;
+}
+
+.wyr-input {
+	display: block;
+	width: 100%;
+	border: 1px solid grey;
+	padding: 0.3rem;
+	margin-bottom: 0.6rem;
+}
+
+.wyr-input:focus {
+	/* background-color: yellow; */
+	outline: none;
+}
+
+.submitbuttonn {
+	display: block;
+	width: 100%;
+	background-color: rgb(67, 171, 67);
+	color: white;
+	font-size: 80%;
+	padding: 0.7rem;
+}
+
+.or {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-self: center;
+	margin-bottom: 0.7rem;
+}
+
+.orr {
+	margin-bottom: 0.6rem;
+	/* align-self: center; */
+}
+
+.b-top {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	align-self: center;
+}
+
+.o {
+	margin-top: 0.5rem;
+}
+
+.hr {
+	border: 0;
+	clear:both;
+	display:block;
+	width: 95%;               
+	background-color: rgb(183, 182, 182);;
+	height: 1px;
+}

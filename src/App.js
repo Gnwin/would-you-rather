@@ -1,13 +1,9 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-// import './App.css';
 
-// import Login from './Login'
-import Navigation from './Navigation'
-
-
-
-
+import Home from './Home';
+// import NewQuestion from './QuestionsList';
+// import LeaderBoard from './QuestionsList';
 
 
 class App extends React.Component {
@@ -15,12 +11,18 @@ class App extends React.Component {
     return(
 
       <div>
-        {/* <Route exact path='/'> */}
-            {/* <Login/> */}
-            <Navigation/>
-        {/* </Route> */}
+        <Route exact path='/'>
+          <Home/>
+        </Route>
+
+        {/* <Route path='/newquestion'> */}
+          {/* <NewQuestion/> */}
+        {/* </Route>  */}
 
 
+        {/* <Route path='/leaderboard'> */}
+          {/* <LeaderBoard/> */}
+        {/* </Route>  */}
       </div>
 
     )

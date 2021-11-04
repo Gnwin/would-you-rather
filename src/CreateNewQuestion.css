@@ -49,7 +49,6 @@
 }
 
 .wyr-input:focus {
-	/* background-color: yellow; */
 	outline: none;
 }
 
@@ -91,6 +90,6 @@
 	clear:both;
 	display:block;
 	width: 95%;               
-	background-color: rgb(183, 182, 182);;
+	background-color: rgb(183, 182, 182);
 	height: 1px;
 }

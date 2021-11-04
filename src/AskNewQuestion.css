@@ -1,0 +1,76 @@
+.padsp {
+	border: 1px solid rgb(183, 182, 182);
+	margin: 0.8rem;
+	width: 50%;
+	max-width: 30rem;
+	margin: 2rem auto;
+}
+
+.userrp {
+	padding: 0.5rem;
+	background-color: rgba(241, 238, 243, 0.875);
+	/* text-align: center; */
+}
+
+.question-infoopp {
+  display: flex;
+}
+
+.question-itemmppp {
+	width: 40%;
+}
+
+.spacerrp {
+	padding: 0.7rem;
+	width: 60%;
+}
+
+.pollbuttonnp {
+	display: block;
+	width: 100%;
+	border: 1px solid rgb(67, 171, 67);
+	background: none;
+	color: green;
+	font-size: 80%;
+	padding: 0.3rem;
+}
+
+.wyrqqp {
+	padding-bottom: 0.7rem;
+	font-size: 125%;
+	font-weight: 700;
+}
+
+.wyr-inputp {
+	display: block;
+	width: 100%;
+	border: 1px solid grey;
+	padding: 0.3rem;
+	margin-bottom: 0.6rem;
+}
+
+.wyr-inputp:focus {
+	outline: none;
+}
+
+.submitbuttonnp {
+	display: block;
+	width: 100%;
+	background-color: rgb(67, 171, 67);
+	color: white;
+	font-size: 80%;
+	padding: 0.7rem;
+}
+
+.chbox {
+	margin-bottom: 0.7rem;
+}
+
+.q-input {
+	vertical-align: middle;
+}
+
+.inputcontent {
+	margin-left: 0.6rem;
+	vertical-align: middle;
+}

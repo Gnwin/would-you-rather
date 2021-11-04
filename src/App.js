@@ -3,10 +3,11 @@ import { Route } from 'react-router-dom'
 
 
 import './App.css'
-import Home from './Home';
-// import NewQuestion from './QuestionsList';
-import Newquestion from './Newquestion';
-// import LeaderBoard from './QuestionsList';
+import QuestionsList from './QuestionsList';
+import CreateNewQuestion from './CreateNewQuestion';
+import AskNewQuestion from './AskNewQuestion';
+import AnsweredQuestion from './AnsweredQuestion';
+import LeaderBoardList from './LeaderBoardList';
 
 
 class App extends React.Component {
@@ -15,8 +16,11 @@ class App extends React.Component {
 
       <div className='size'>
         <Route exact path='/'>
-          <Home/>
-          <Newquestion/>
+          <QuestionsList/>
+          <CreateNewQuestion/>
+          <AskNewQuestion/>
+          <AnsweredQuestion/>
+          <LeaderBoardList/>
         </Route>
 
         {/* <Route path='/newquestion'> */}

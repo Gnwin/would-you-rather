@@ -1,0 +1,91 @@
+.padss {
+	border-bottom: 1px solid rgb(183, 182, 182);
+	border-right: 1px solid rgb(183, 182, 182);
+	border-left: 1px solid rgb(183, 182, 182);
+	/* width: 100%; */
+	margin: 1rem 0rem;
+}
+
+.question-infoss {
+  display: flex;
+  border-top: 1px solid rgb(183, 182, 182);
+}
+
+.questionss {
+	width: 50%;
+}
+
+.avatarss {
+	border-right: 1px solid rgb(183, 182, 182);
+	width: 30%;
+}
+
+.board {
+	display: flex;
+	width: 20%;
+	border-left: 1px solid rgb(183, 182, 182);
+}
+
+.spacerss {
+	padding: 0.7rem;
+}
+
+.wyrss {
+	padding-bottom: 0.7rem;
+}
+
+.wyrqss {
+
+}
+
+.wyrss {
+	font-weight: 600;
+	font-size: 125%;
+}
+
+.sp {
+	border: 1px solid rgb(183, 182, 182);
+	text-align: center;
+	margin: auto;
+}
+
+.lead {
+	height: 50%;
+	vertical-align: middle;                        
+}
+
+.score,
+.lead {
+	padding: 0.7rem 0.9rem;
+}
+
+.lead {
+	border-bottom: 1px solid rgb(183, 182, 182);
+	font-size: 90%;
+	background-color:rgba(241, 238, 243, 0.875);
+}
+
+.answeredquestions {
+	border-bottom: 1px solid rgb(183, 182, 182);
+}
+
+.answeredquestions,
+.createdquestions {
+	padding: 0.5rem 0rem;
+}
+
+.aq {
+	float: right;
+}
+
+.cq {
+	float: right;
+}
+
+.bc {
+	background-color: rgb(67, 171, 67);
+	color: white;
+	padding: 0.4rem;
+	border-radius: 100%;
+	font-size: 90%;
+}

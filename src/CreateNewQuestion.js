@@ -1,9 +1,9 @@
 import React from 'react'
 
-import './Newquestion.css'
+import './CreateNewQuestion.css'
 
 
-class Newquestion extends React.Component {
+class CreateNewQuestion extends React.Component {
 	render(){
 		return(
 			<div className='pads'>
@@ -32,4 +32,4 @@ class Newquestion extends React.Component {
 }
 
 
-export default Newquestion
+export default CreateNewQuestion

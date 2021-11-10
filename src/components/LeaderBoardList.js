@@ -1,6 +1,6 @@
 import React from "react";
 
-import './LeaderBoardList.css'
+import '../stylesheets/LeaderBoardList.css'
 import Leadboard from './Leadboard'
 
 

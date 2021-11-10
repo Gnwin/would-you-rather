@@ -2,7 +2,7 @@ import React from 'react';
 // import Link from "react-router-dom";
 
 
-import './Question.css'
+import '../stylesheets/Question.css'
 
 
 class Question extends React.Component {

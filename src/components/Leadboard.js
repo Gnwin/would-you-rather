@@ -1,6 +1,6 @@
 import  React from "react";
 
-import './Leadboard.css'
+import '../stylesheets/Leadboard.css'
 
 class Leadboard extends React.Component {
   render(){

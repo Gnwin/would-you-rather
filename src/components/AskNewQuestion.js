@@ -1,43 +1,34 @@
-import React from "react"
+import React from "react";
 
 
-import './AnsweredQuestion.css'
+import '../stylesheets/AskNewQuestion.css'
 
-
-class AnsweredQuestion extends React.Component{
-	render(){
+class AskNewQuestion extends React.Component {
+  render(){
 		return (
 			<div className='padsp'>
-			<p className='userrp borderp'>Asked by Tyler McGinnis:</p>
+			<p className='userrp borderp'>Tyler McGinnis asks:</p>
 				<div className="question-infoopp">
 					<div className="question-itemmppp avatar">Avatar</div>
 					<div className='spacerrp'>
-						<p className='wyrqqp'>Result:</p>
-
+						<p className='wyrqqp'>Would you Rather...</p>
 						<div className='chbox'>
-							<p>Would you be a frontend engineer</p>
 							<input className='q-input' type='checkbox'/>
 							<span className='inputcontent'>be a frontend engineer</span>
-							<p>1 out of 2 votes</p>
 						</div>
-
 						<div className='chbox'>
-							<p>Would you be a backend engineer</p>
 							<input className='q-input' type='checkbox'/>
 							<span className='inputcontent'>be a backend engineer</span>
-							<p>1 out of 2 votes</p>
 						</div>
-
 						<input className='submitbuttonnp' type='submit'/>
 					</div>
 				</div>
 
 			</div>
+
 		)
 	}
 }
 
 
-
-
-export default AnsweredQuestion
+export default AskNewQuestion

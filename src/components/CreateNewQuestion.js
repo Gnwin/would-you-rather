@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './CreateNewQuestion.css'
+import '../stylesheets/CreateNewQuestion.css'
 
 
 class CreateNewQuestion extends React.Component {

@@ -1,6 +1,6 @@
 import React from "react"
 
-import './LoggedUser.css'
+import '../stylesheets/LoggedUser.css'
 
 class LoggedUser extends React.Component {
 	render(){

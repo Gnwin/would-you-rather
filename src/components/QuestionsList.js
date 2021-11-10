@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import './QuestionsList.css'
+import '../stylesheets/QuestionsList.css'
 import  Question from './Question';
 
 

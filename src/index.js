@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom'
 import './index.css';
-import App from './components/App/App';
+import App from './components/App';
+// import Login from './Login';
 import reportWebVitals from './reportWebVitals';
-import Navigation from './Navigation'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Navigation/>
-    </BrowserRouter>
-
+    {/* <BrowserRouter>
+      <Login/>
+    </BrowserRouter> */}
     <BrowserRouter>
       <App />
     </BrowserRouter>

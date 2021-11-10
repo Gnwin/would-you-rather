@@ -1,6 +1,6 @@
 import React from "react";
 
-import './Avatar.css'
+import '../stylesheets/Avatar.css'
 
 class Avatar extends React.Component {
     render(){

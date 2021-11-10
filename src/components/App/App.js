@@ -3,11 +3,11 @@ import { Route } from 'react-router-dom'
 
 
 import './App.css'
-import QuestionsList from './QuestionsList';
-import CreateNewQuestion from './CreateNewQuestion';
-import AskNewQuestion from './AskNewQuestion';
-import AnsweredQuestion from './AnsweredQuestion';
-import LeaderBoardList from './LeaderBoardList';
+import QuestionsList from '../../QuestionsList';
+import CreateNewQuestion from '../../CreateNewQuestion';
+import AskNewQuestion from '../../AskNewQuestion';
+import AnsweredQuestion from '../../AnsweredQuestion';
+import LeaderBoardList from '../../LeaderBoardList';
 
 
 class App extends React.Component {
